@@ -4,20 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
-        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Datepicker JS -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Datepicker CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
     <title>Quiz Result</title>
     <style>
+        .btn {
+            height: 40px;
+            background-color: #61dafb;
+            font-weight: 500;
+        }
+
+        .mainDivss {
+            background-color: white;
+            display: flex;
+            width: 74%;
+            justify-content: center;
+            margin: -20px auto 0px auto;
+            padding: 50px 10px 10px 10px;
+            overflow: hidden;
+        }
+
+        .quizName {
+            color: #222224;
+            font: normal 10pt verdana;
+            font-weight: bold;
+        }
+
         .Bodys {
             background-color: black;
         }
@@ -94,7 +115,9 @@
         }
 
         /* Second Part CSS */
-
+        .container {
+            color: white;
+        }
     </style>
 </head>
 
@@ -115,8 +138,99 @@
         </div>
     </div>
 
+    <div class="mainDivss">
+        <div class="namess">
+            <div class="row">
+                <div class="col-md-7 mx-auto mb-5">
+                    <div class="row" style="display: flex;justify-content: center; align-items: center;">
+                        <div class="col-md-4" style="font-weight: 500;"> Please select date:</div>
+                        <div class="col-md-4"> <input id="datepicker" width="276" class="form-control"
+                                placeholder="Select date" /></div>
+                        <div class="col-md-4"> <button id="submitBtn" class="btn">Submit</button></div>
+                    </div>
 
 
+                </div>
+            </div>
+
+            <div class="row" id="quizList"></div>
+        </div>
+
+    </div>
+
+    <script>
+        // Load quizzes from JSON file
+        fetch('data/quizzes.json')
+            .then(response => response.json())
+            .then(data => {
+                displayQuizzes(data); // Display all quizzes initially
+            })
+            .catch(error => console.error('Error loading quizzes:', error));
+
+        // Datepicker initialization
+        $('#datepicker').datepicker({
+            format: 'yyyy-mm-dd',
+            autoclose: true,
+            todayHighlight: true,
+            uiLibrary: 'bootstrap4'
+        });
+
+        // Function to display quizzes based on provided data
+        function displayQuizzes(data) {
+            const quizList = document.getElementById('quizList');
+            quizList.innerHTML = ''; // Clear previous content
+
+            data.forEach(quiz => {
+                const colDiv = document.createElement('div');
+                colDiv.classList.add('col-md-4');
+                const quizContent = `
+              <p class="quizName">${quiz.name}</p>
+              <div class="row border m-0">
+                <div class="col-md-3">${quiz.time ? quiz.time : 'N/A'}</div>
+                <div class="col-md-2">${quiz.serialNo}</div>
+                <div class="col-md-7">${quiz.detail}</div>
+              </div>
+            `;
+                colDiv.innerHTML = quizContent;
+                quizList.appendChild(colDiv);
+            });
+        }
+
+        // Filter quizzes based on selected date when the submit button is clicked
+        document.getElementById('submitBtn').addEventListener('click', function () {
+            const selectedDate = $('#datepicker').datepicker('getDate');
+            if (selectedDate) {
+                // Convert selected date to start of the day (midnight)
+                const startOfDay = new Date(selectedDate.getFullYear(), selectedDate.getMonth(), selectedDate.getDate());
+                const endOfDay = new Date(startOfDay.getTime() + 24 * 60 * 60 * 1000 - 1); // End of the day (just before the next day)
+
+                fetch('data/quizzes.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        const filteredQuizzes = data.filter(quiz => {
+                            const quizDate = new Date(quiz.date);
+                            return quizDate >= startOfDay && quizDate <= endOfDay;
+                        });
+                        console.log(filteredQuizzes, "data");
+                        if (filteredQuizzes.length > 0) {
+                            displayQuizzes(filteredQuizzes); // Display filtered quizzes
+                        } else {
+                            alert('No quizzes found for the selected date.');
+                        }
+                    })
+                    .catch(error => console.error('Error loading quizzes:', error));
+            } else {
+                // If no date selected, display all quizzes
+                fetch('data/quizzes.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        displayQuizzes(data); // Display all quizzes
+                    })
+                    .catch(error => console.error('Error loading quizzes:', error));
+            }
+        });
+
+    </script>
 
 
 
