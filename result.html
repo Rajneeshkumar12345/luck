@@ -118,6 +118,22 @@
         .container {
             color: white;
         }
+
+        .gifs {
+            position: relative;
+        }
+
+        .gifs::after {
+            content: "";
+            position: absolute;
+            top: 20%;
+            right: -45px;
+            transform: translateY(-50%);
+            background-image: url(/images/new_icon.gif);
+            width: 40px;
+            height: 20px;
+            z-index: 1;
+        }
     </style>
 </head>
 
@@ -131,7 +147,7 @@
                     <li><a href="/register.html">REGISTER</a></li>
                     <li><a href="/about.html">ABOUT</a></li>
                     <li><a href="/result.html">QUIZ RESULT</a></li>
-                    <li><a href="/contact-us.html">CONTACT</a></li>
+                    <li><a href="/contact-us.html" class="gifs">CONTACT</a></li>
                     <li><a href="/login.html">LOGIN</a></li>
                 </ul>
             </div>
@@ -153,7 +169,7 @@
                 </div>
             </div>
 
-            <div class="row" id="quizList"></div>
+            <div class="row border" id="quizList"></div>
         </div>
 
     </div>
@@ -180,17 +196,43 @@
             const quizList = document.getElementById('quizList');
             quizList.innerHTML = ''; // Clear previous content
 
+            // Create a set to store unique quiz names
+            const uniqueQuizNames = new Set();
+
+            // Loop through the data to create containers for unique quiz names
+            data.forEach(quiz => {
+                if (!uniqueQuizNames.has(quiz.name)) {
+                    const quizNameContainer = document.createElement('div');
+                    quizNameContainer.classList.add('col-md-4');
+                    quizNameContainer.innerHTML = `<h5>${quiz.name}</h5>`;
+                    quizList.appendChild(quizNameContainer);
+                    uniqueQuizNames.add(quiz.name);
+                }
+            });
+
+            // Loop through the data again to display quiz details
             data.forEach(quiz => {
                 const colDiv = document.createElement('div');
                 colDiv.classList.add('col-md-4');
-                const quizContent = `
-              <p class="quizName">${quiz.name}</p>
-              <div class="row border m-0">
-                <div class="col-md-3">${quiz.time ? quiz.time : 'N/A'}</div>
-                <div class="col-md-2">${quiz.serialNo}</div>
-                <div class="col-md-7">${quiz.detail}</div>
-              </div>
-            `;
+
+                let quizContent = '';
+                if (quiz.name === 'Fun Quiz') {
+                    quizContent = `
+        <div class="row border">
+          <div class="col-md-3 border">${quiz.time ? quiz.time : 'N/A'}</div>
+          <div class="col-md-2 border">${quiz.serialNo}</div>
+          <div class="col-md-7 border">${quiz.detail}</div>
+        </div>
+      `;
+                } else if (quiz.name === 'Wonder Quiz' || quiz.name === 'Lucky Quiz') {
+                    quizContent = `
+        <div class="row border">
+          <div class="col-md-3 border">${quiz.serialNo}</div>
+          <div class="col-md-9 border">${quiz.detail}</div>
+        </div>
+      `;
+                }
+
                 colDiv.innerHTML = quizContent;
                 quizList.appendChild(colDiv);
             });

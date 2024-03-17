@@ -16,7 +16,7 @@
     "name": "Lucky Quiz",
     "serialNo": 3,
     "date": "2024-03-17",
-    "detail": "Description of the Lucky Quiz"
+    "detail": "Ravana expelled his younger brother Vibhisana from Lanka"
   },
   {
     "name": "Fun Quiz",
@@ -35,7 +35,26 @@
     "name": "Lucky Quiz",
     "serialNo": 3,
     "date": "2024-03-16",
-    "detail": "Description of the Lucky Quiz"
+    "detail": "Ravana expelled his younger brother Vibhisana from Lanka"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": 1,
+    "date": "2024-03-16",
+    "time": "10:00 AM",
+    "detail": "Description of the Fun Quiz"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": 2,
+    "date": "2024-03-16",
+    "detail": "Description of the Wonder Quiz"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": 3,
+    "date": "2024-03-16",
+    "detail": "Ravana expelled his younger brother Vibhisana from Lanka"
   },
   {
     "name": "Fun Quiz",
@@ -54,7 +73,7 @@
     "name": "Lucky Quiz",
     "serialNo": 3,
     "date": "2024-03-17",
-    "detail": "Description of the Lucky Quiz"
+    "detail": "Ravana expelled his younger brother Vibhisana from Lanka"
   },
   {
     "name": "Fun Quiz",
@@ -73,7 +92,26 @@
     "name": "Lucky Quiz",
     "serialNo": 3,
     "date": "2024-03-15",
-    "detail": "Description of the Lucky Quiz"
+    "detail": "Ravana expelled his younger brother Vibhisana from Lanka"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": 1,
+    "date": "2024-03-15",
+    "time": "10:00 AM",
+    "detail": "Description of the Fun Quiz"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": 2,
+    "date": "2024-03-15",
+    "detail": "Description of the Wonder Quiz"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": 3,
+    "date": "2024-03-15",
+    "detail": "Ravana expelled his younger brother Vibhisana from Lanka"
   }
 ]
  

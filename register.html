@@ -160,6 +160,20 @@
         .MainContent button:hover {
             background-color: #90caf9;
         }
+        .gifs {
+            position: relative;
+        }
+        .gifs::after {
+            content: "";
+            position: absolute;
+            top: 20%;
+            right: -45px;
+            transform: translateY(-50%);
+            background-image: url(/images/new_icon.gif);
+            width: 40px;
+            height: 20px;
+            z-index: 1;
+        }
     </style>
 </head>
 
@@ -173,7 +187,7 @@
                     <li><a href="/register.html">REGISTER</a></li>
                     <li><a href="/about.html">ABOUT</a></li>
                     <li><a href="/result.html">QUIZ RESULT</a></li>
-                    <li><a href="/contact-us.html">CONTACT</a></li>
+                    <li><a href="/contact-us.html" class="gifs">CONTACT</a></li>
                     <li><a href="/login.html">LOGIN</a></li>
                 </ul>
             </div>
