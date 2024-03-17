@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <title>About-us</title>
+    <style>
+        .Bodys {
+            background-color: black;
+        }
+
+        .mainDiv {
+            display: flex;
+            width: 74%;
+            justify-content: center;
+            margin: 0 auto;
+
+        }
+
+        .navElement ul {
+            list-style-type: none;
+            padding: 15px 0px 15px 0px;
+            background-color: #bcd037;
+            display: flex;
+            justify-content: space-around;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .navElement ul li {
+            font-weight: 400;
+            font-size: 18px;
+            margin-right: 10px;
+            padding: 0;
+            margin: 0;
+            color: black;
+            list-style: none;
+        }
+
+        .navElement ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .navElement ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .mainDivs {
+            width: 74%;
+            justify-content: center;
+            margin: 1rem auto;
+
+
+        }
+
+        .navElementBottoms ul {
+            display: flex;
+            background-color: #191919;
+
+        }
+
+        .navElementBottoms ul li {
+            color: #ffffff;
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            padding: 15px;
+            float: left;
+            padding-right: 50px;
+            list-style: none;
+        }
+
+        .navElementBottoms ul li a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        .navElementBottoms ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Second Part CSS */
+        .MainContent {
+            width: 74%;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .container {
+            max-width: 800px;
+            justify-content: center;
+            margin: auto;
+        }
+        .hello{
+            margin-bottom: 2rem;
+            justify-content: center;
+            display: flex;    
+        }
+
+        .card {
+            background-color: #373d4b;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .MainContent h2 {
+            text-align: center;
+            color: #61dafb;
+        }
+
+        .MainContent form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .MainContent label {
+            margin-bottom: 6px;
+            color: white;
+        }
+
+        .MainContent input {
+            padding: 10px;
+            margin-bottom: 12px;
+            border: 1px solid #61dafb;
+            border-radius: 4px;
+            transition: border-color 0.3s ease-in-out;
+            outline: none;
+            color: #282c37;
+        }
+
+        .MainContent input:focus {
+            border-color: #90caf9;
+        }
+
+        .MainContent button {
+            background-color: #61dafb;
+            color: #282c37;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .MainContent button:hover {
+            background-color: #90caf9;
+        }
+    </style>
+</head>
+
+<body class="Bodys">
+    <div class="mainDiv">
+        <div class="mains">
+            <img src="/images/banner.jpg" alt="banner" width="1000" height="200">
+            <div class="navElement">
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/register.html">REGISTER</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/result.html">QUIZ RESULT</a></li>
+                    <li><a href="/contact-us.html">CONTACT</a></li>
+                    <li><a href="/login.html">LOGIN</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="MainContent">
+        <div class="container mt-5">
+            <div class="row hello">
+                <div class="col-md-6 mx-auto ">
+                    <h2 class="text-center">Registration Form</h2>
+                    <form>
+                        <div class="form-group">
+                            <label>First Name</label>
+                            <input type="text" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Last Name</label>
+                            <input type="text" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="text" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Email address</label>
+                            <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="email"
+                                required />
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control" placeholder="Enter your password" required />
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="mainDivs">
+        <div class="navElementBottoms mt-3">
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/register.html">REGISTER</a></li>
+                <li><a href="/about.html">ABOUT</a></li>
+                <li><a href="/result.html">QUIZ RESULT</a></li>
+                <li><a href="/contact-us.html">CONTACT</a></li>
+                <li><a href="/login.html">LOGIN</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
