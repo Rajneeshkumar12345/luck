@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -134,8 +134,94 @@
             height: 20px;
             z-index: 1;
         }
+
+        @media (max-width: 767px) {
+            .mainDiv {
+                width: 100%;
+                display: block;
+            }
+
+            .bottoms {
+                width: 100%;
+            }
+
+            .imageClass img {
+                max-width: 100%;
+            }
+
+            .mains img {
+                max-width: 100%;
+            }
+
+            .navElement ul {
+                list-style-type: none;
+                padding: 20px 0px 15px 0px;
+                background-color: #bcd037;
+                display: flex;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .navElement ul li {
+                display: flex;
+                justify-content: center;
+                margin: 5px auto;
+            }
+
+            .mainDivs {
+                position: relative;
+                width: 100%;
+                background-color: #444145;
+            }
+
+            .mainDivs ul {
+                display: flex;
+                /* flex-wrap: nowrap; */
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            .mainDivs ul li {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+
+            .navElementBottoms ul li {
+                font-size: 12px;
+                padding: 0px;
+                float: left;
+                padding-right: 10px;
+                list-style: none;
+            }
+
+            .mainAbou {
+                margin: 15px;
+                text-align: left;
+            }
+
+            .mainDivss {
+                width: 100%;
+                background-color: white;
+                display: flex;
+                justify-content: flex-start;
+                margin: -20px auto 0px auto;
+                padding: 50px 10px 10px 10px;
+                overflow: scroll
+            }
+            .form-control {
+                width: 300px !important;
+            }
+            .btn {
+                margin-top: 20px;
+                text-align: center;
+            }
+        }
     </style>
-</head>
+scroll
 
 <body class="Bodys">
     <div class="mainDiv">
@@ -169,8 +255,39 @@
                 </div>
             </div>
 
-            <div class="row border" id="quizList"></div>
+            <div id="quizTableContainer" class=" mt-3">
+                <div class="table-responsive">
+                    <table id="quizTable" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th colspan="3" class="text-center">Fun Quiz</th>
+                                <th colspan="2" class="text-center">Wonder Quiz</th>
+                                <th colspan="2" class="text-center">Lucky Quiz</th>
+                            </tr>
+                            <tr>
+                                <th>Time</th>
+                                <th>Title NO.</th>
+                                <th class="text-center">Details</th>
+                                <th>Title NO.</th>
+                                <th class="text-center">Details</th>
+                                <th>Title NO.</th>
+                                <th class="text-center">Details</th>
+                            </tr>
+                        </thead>
+                        <tbody id="quizTableBody">
+                            <!-- Quiz details will be inserted here dynamically -->
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
         </div>
+
+
+
+
+
 
     </div>
 
@@ -179,7 +296,7 @@
         fetch('data/quizzes.json')
             .then(response => response.json())
             .then(data => {
-                displayQuizzes(data); // Display all quizzes initially
+                displayQuizzesInTable(data); // Display all quizzes initially
             })
             .catch(error => console.error('Error loading quizzes:', error));
 
@@ -191,50 +308,59 @@
             uiLibrary: 'bootstrap4'
         });
 
+
         // Function to display quizzes based on provided data
-        function displayQuizzes(data) {
-            const quizList = document.getElementById('quizList');
-            quizList.innerHTML = ''; // Clear previous content
+        function displayQuizzesInTable(data) {
+            const quizTableBody = document.getElementById('quizTableBody');
+            quizTableBody.innerHTML = ''; // Clear previous content
 
-            // Create a set to store unique quiz names
-            const uniqueQuizNames = new Set();
+            // Initialize variables to track the current row index for each quiz type
+            let funQuizRowIndex = 0;
+            let wonderQuizRowIndex = 0;
+            let luckyQuizRowIndex = 0;
 
-            // Loop through the data to create containers for unique quiz names
+            // Loop through the data and populate the table
             data.forEach(quiz => {
-                if (!uniqueQuizNames.has(quiz.name)) {
-                    const quizNameContainer = document.createElement('div');
-                    quizNameContainer.classList.add('col-md-4');
-                    quizNameContainer.innerHTML = `<h5>${quiz.name}</h5>`;
-                    quizList.appendChild(quizNameContainer);
-                    uniqueQuizNames.add(quiz.name);
-                }
-            });
-
-            // Loop through the data again to display quiz details
-            data.forEach(quiz => {
-                const colDiv = document.createElement('div');
-                colDiv.classList.add('col-md-4');
-
-                let quizContent = '';
+                // Check the quiz type and update the row index accordingly
+                let rowIndex;
                 if (quiz.name === 'Fun Quiz') {
-                    quizContent = `
-        <div class="row border">
-          <div class="col-md-3 border">${quiz.time ? quiz.time : 'N/A'}</div>
-          <div class="col-md-2 border">${quiz.serialNo}</div>
-          <div class="col-md-7 border">${quiz.detail}</div>
-        </div>
-      `;
-                } else if (quiz.name === 'Wonder Quiz' || quiz.name === 'Lucky Quiz') {
-                    quizContent = `
-        <div class="row border">
-          <div class="col-md-3 border">${quiz.serialNo}</div>
-          <div class="col-md-9 border">${quiz.detail}</div>
-        </div>
-      `;
+                    rowIndex = funQuizRowIndex++;
+                } else if (quiz.name === 'Wonder Quiz') {
+                    rowIndex = wonderQuizRowIndex++;
+                } else if (quiz.name === 'Lucky Quiz') {
+                    rowIndex = luckyQuizRowIndex++;
                 }
 
-                colDiv.innerHTML = quizContent;
-                quizList.appendChild(colDiv);
+                // Create a new row if it doesn't exist yet
+                let row = quizTableBody.querySelector(`tr[data-index="${rowIndex}"]`);
+                if (!row) {
+                    row = document.createElement('tr');
+                    row.setAttribute('data-index', rowIndex);
+                    quizTableBody.appendChild(row);
+                }
+
+                // Create cells for "Time", "Title No.", and "Details"
+                const timeCell = document.createElement('td');
+                const titleNoCell = document.createElement('td');
+                const detailCell = document.createElement('td');
+
+                // Populate cells with quiz details
+                timeCell.textContent = quiz.time ? quiz.time : 'N/A';
+                titleNoCell.textContent = quiz.serialNo;
+                detailCell.textContent = quiz.detail;
+
+
+                if (quiz.name === 'Fun Quiz') {
+                    row.appendChild(timeCell);
+                    row.appendChild(titleNoCell);
+                    row.appendChild(detailCell);
+                } else if (quiz.name === 'Wonder Quiz') {
+                    row.appendChild(titleNoCell);
+                    row.appendChild(detailCell);
+                } else if (quiz.name === 'Lucky Quiz') {
+                    row.appendChild(titleNoCell);
+                    row.appendChild(detailCell);
+                }
             });
         }
 
@@ -253,9 +379,8 @@
                             const quizDate = new Date(quiz.date);
                             return quizDate >= startOfDay && quizDate <= endOfDay;
                         });
-                        console.log(filteredQuizzes, "data");
                         if (filteredQuizzes.length > 0) {
-                            displayQuizzes(filteredQuizzes); // Display filtered quizzes
+                            displayQuizzesInTable(filteredQuizzes); // Display filtered quizzes
                         } else {
                             alert('No quizzes found for the selected date.');
                         }
@@ -266,11 +391,12 @@
                 fetch('data/quizzes.json')
                     .then(response => response.json())
                     .then(data => {
-                        displayQuizzes(data); // Display all quizzes
+                        displayQuizzesInTable(data); // Display all quizzes
                     })
                     .catch(error => console.error('Error loading quizzes:', error));
             }
         });
+
 
     </script>
 
