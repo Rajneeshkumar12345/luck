@@ -97,20 +97,20 @@
   },
   {
     "name": "Fun Quiz",
-    "serialNo": "",
+    "serialNo": "5",
     "date": "2024-03-21",
     "time": "14:00 to 15:00",
     "detail": "Ravana killed hundreds of monkeys"
   },
   {
     "name": "Wonder Quiz",
-    "serialNo": "",
+    "serialNo": "4",
     "date": "2024-03-21",
     "detail": "Welcome to Venice"
   },
   {
     "name": "Lucky Quiz",
-    "serialNo": "",
+    "serialNo": "4",
     "date": "2024-03-21",
     "detail": "Zürich is increasingly influenced by big-city"
   },	
