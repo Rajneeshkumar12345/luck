@@ -2,20 +2,20 @@
 
   {
     "name": "Fun Quiz",
-    "serialNo": "",
+    "serialNo": "0",
     "date": "2024-03-21",
     "time": "09:00 to 10:00",
     "detail": "Description of the Fun Quiz"
   },
   {
     "name": "Wonder Quiz",
-    "serialNo": "",
+    "serialNo": "1",
     "date": "2024-03-21",
     "detail": "Description of the Wonder Quiz"
   },
   {
     "name": "Lucky Quiz",
-    "serialNo": "",
+    "serialNo": "0",
     "date": "2024-03-21",
     "detail": "Ravana expelled his younger brother Vibhisana from Lanka"
   },
