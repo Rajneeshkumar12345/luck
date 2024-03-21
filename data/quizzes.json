@@ -384,7 +384,25 @@
     "date": "2024-03-20",
     "detail": "Ruaha National Park is the second largest national park in Tanzania"
   },	
-
+  {
+    "name": "Fun Quiz",
+    "serialNo": "",
+    "date": "2024-03-22",
+    "time": "",
+    "detail": ""
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "",
+    "date": "2024-03-22",
+    "detail": ""
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "",
+    "date": "2024-03-22",
+    "detail": ""
+  },	
 
 
 
