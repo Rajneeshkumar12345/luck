@@ -436,7 +436,25 @@
     "date": "2024-03-22",
     "detail": "A King"
   },
-
+  {
+    "name": "Fun Quiz",
+    "serialNo": "5",
+    "date": "2024-03-22",
+    "time": "12:00 to 13:00",
+    "detail": "Kanyakumari city is the most southern tip of India"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "2",
+    "date": "2024-03-22",
+    "detail": "The rainy season"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "9",
+    "date": "2024-03-22",
+    "detail": "Business with huge losses"
+  },
 
 
 
