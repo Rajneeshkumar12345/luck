@@ -101,6 +101,7 @@
     "time": "14:00 to 15:00",
     "detail": "Ravana killed hundreds of monkeys"
   },
+
   {
     "name": "Wonder Quiz",
     "serialNo": "4",
@@ -524,20 +525,21 @@
   {
     "name": "Fun Quiz",
     "serialNo": 1,
-    "date": "2024-03-16",
+    "date": "2024-03-23",
     "time": "09:00 to 10:00",
     "detail": "Description of the Fun Quiz"
   },
   {
     "name": "Wonder Quiz",
     "serialNo": 2,
-    "date": "2024-03-16",
+    "date": "2024-03-23",
     "detail": "Description of the Wonder Quiz"
   },
+  
   {
     "name": "Lucky Quiz",
     "serialNo": 3,
-    "date": "2024-03-16",
+    "date": "2024-03-23",
     "detail": "Ravana expelled his younger brother Vibhisana from Lanka"
   },
   {
