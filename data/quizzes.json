@@ -493,13 +493,6 @@
     "date": "2024-03-22",
     "detail": "Zürich is increasingly influenced by big-city"
   },
-
-
-
-
-
-
-
   {
     "name": "Fun Quiz",
     "serialNo": "1",
@@ -690,6 +683,25 @@
     "date": "2024-03-23",
     "detail": "Ruaha National Park is the second largest national park in Tanzania"
   },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "",
+    "date": "2024-03-24",
+    "time": "09:00 to 10:00",
+    "detail": ""
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "",
+    "date": "2024-03-24",
+    "detail": ""
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "",
+    "date": "2024-03-24",
+    "detail": ""
+  },
 
 
 
@@ -697,7 +709,36 @@
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     "name": "Fun Quiz",
     "serialNo": 1,
