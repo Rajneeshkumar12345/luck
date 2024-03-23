@@ -547,7 +547,8 @@
                     if (filteredQuizzes.length > 0) {
                         displayQuizzesInTable(filteredQuizzes);
                     } else {
-                        alert('No quizzes found for the selected date.');
+                        displayQuizzesInTable([]);
+                        
                     }
                 })
                 .catch(error => console.error('Error loading quizzes:', error));
