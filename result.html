@@ -232,7 +232,7 @@
             .table-bordered td {
                 color: #222224;
                 /* font: normal 9pt verdana; */
-                font-family:0;
+                font-family: 0;
                 font-size: 10px !important;
                 font-weight: 400 !important;
                 line-height: normal;
@@ -323,131 +323,17 @@
         </div>
 
 
-
-
-
-
     </div>
-
-    <!-- <script>
-            // Load quizzes from JSON file
-            fetch('data/quizzes.json')
-                .then(response => response.json())
-                .then(data => {
-                    displayQuizzesInTable(data); // Display all quizzes initially
-                })
-                .catch(error => console.error('Error loading quizzes:', error));
-
-            // Datepicker initialization
-            $('#datepicker').datepicker({
-                format: 'yyyy-mm-dd',
-                autoclose: true,
-                todayHighlight: true,
-                uiLibrary: 'bootstrap4'
-            });
-
-
-            // Function to display quizzes based on provided data
-            function displayQuizzesInTable(data) {
-                const quizTableBody = document.getElementById('quizTableBody');
-                quizTableBody.innerHTML = ''; // Clear previous content
-
-                // Initialize variables to track the current row index for each quiz type
-                let funQuizRowIndex = 0;
-                let wonderQuizRowIndex = 0;
-                let luckyQuizRowIndex = 0;
-
-                // Loop through the data and populate the table
-                data.forEach(quiz => {
-                    // Check the quiz type and update the row index accordingly
-                    let rowIndex;
-                    if (quiz.name === 'Fun Quiz') {
-                        rowIndex = funQuizRowIndex++;
-                    } else if (quiz.name === 'Wonder Quiz') {
-                        rowIndex = wonderQuizRowIndex++;
-                    } else if (quiz.name === 'Lucky Quiz') {
-                        rowIndex = luckyQuizRowIndex++;
-                    }
-
-                    // Create a new row if it doesn't exist yet
-                    let row = quizTableBody.querySelector(`tr[data-index="${rowIndex}"]`);
-                    if (!row) {
-                        row = document.createElement('tr');
-                        row.setAttribute('data-index', rowIndex);
-                        quizTableBody.appendChild(row);
-                    }
-
-                    // Create cells for "Time", "Title No.", and "Details"
-                    const timeCell = document.createElement('td');
-                    const titleNoCell = document.createElement('td');
-                    const detailCell = document.createElement('td');
-
-                    // Populate cells with quiz details
-                    timeCell.textContent = quiz.time ? quiz.time : 'N/A';
-                    titleNoCell.textContent = quiz.serialNo;
-                    detailCell.textContent = quiz.detail;
-
-
-                    if (quiz.name === 'Fun Quiz') {
-                        row.appendChild(timeCell);
-                        row.appendChild(titleNoCell);
-                        row.appendChild(detailCell);
-                    } else if (quiz.name === 'Wonder Quiz') {
-                        row.appendChild(titleNoCell);
-                        row.appendChild(detailCell);
-                    } else if (quiz.name === 'Lucky Quiz') {
-                        row.appendChild(titleNoCell);
-                        row.appendChild(detailCell);
-                    }
-                });
-            }
-
-            // Filter quizzes based on selected date when the submit button is clicked
-            document.getElementById('submitBtn').addEventListener('click', function () {
-                const selectedDate = $('#datepicker').datepicker('getDate');
-                if (selectedDate) {
-                    // Convert selected date to start of the day (midnight)
-                    const startOfDay = new Date(selectedDate.getFullYear(), selectedDate.getMonth(), selectedDate.getDate());
-                    const endOfDay = new Date(startOfDay.getTime() + 24 * 60 * 60 * 1000 - 1); // End of the day (just before the next day)
-
-                    fetch('data/quizzes.json')
-                        .then(response => response.json())
-                        .then(data => {
-                            const filteredQuizzes = data.filter(quiz => {
-                                const quizDate = new Date(quiz.date);
-                                return quizDate >= startOfDay && quizDate <= endOfDay;
-                            });
-                            if (filteredQuizzes.length > 0) {
-                                displayQuizzesInTable(filteredQuizzes); // Display filtered quizzes
-                            } else {
-                                alert('No quizzes found for the selected date.');
-                            }
-                        })
-                        .catch(error => console.error('Error loading quizzes:', error));
-                } else {
-                    // If no date selected, display all quizzes
-                    fetch('data/quizzes.json')
-                        .then(response => response.json())
-                        .then(data => {
-                            displayQuizzesInTable(data); // Display all quizzes
-                        })
-                        .catch(error => console.error('Error loading quizzes:', error));
-                }
-            });
-
-
-        </script> -->
-
     <script>
-        // Load quizzes from JSON file
+
         fetch('data/quizzes.json')
             .then(response => response.json())
             .then(data => {
-                displayQuizzesInTable(data); // Display all quizzes initially
+                displayQuizzesInTable(data);
             })
             .catch(error => console.error('Error loading quizzes:', error));
 
-        // Datepicker initialization
+
         $('#datepicker').datepicker({
             format: 'yyyy-mm-dd',
             autoclose: true,
@@ -455,19 +341,19 @@
             uiLibrary: 'bootstrap4'
         });
 
-        // Function to display quizzes based on provided data
+
         function displayQuizzesInTable(data) {
             const quizTableBody = document.getElementById('quizTableBody');
-            quizTableBody.innerHTML = ''; // Clear previous content
+            quizTableBody.innerHTML = '';
 
-            // Initialize variables to track the current row index for each quiz type
+
             let funQuizRowIndex = 0;
             let wonderQuizRowIndex = 0;
             let luckyQuizRowIndex = 0;
 
-            // Loop through the data and populate the table
+
             data.forEach(quiz => {
-                // Check the quiz type and update the row index accordingly
+
                 let rowIndex;
                 if (quiz.name === 'Fun Quiz') {
                     rowIndex = funQuizRowIndex++;
@@ -477,7 +363,7 @@
                     rowIndex = luckyQuizRowIndex++;
                 }
 
-                // Create a new row if it doesn't exist yet
+
                 let row = quizTableBody.querySelector(`tr[data-index="${rowIndex}"]`);
                 if (!row) {
                     row = document.createElement('tr');
@@ -485,12 +371,12 @@
                     quizTableBody.appendChild(row);
                 }
 
-                // Create cells for "Time", "Title No.", and "Details"
+
                 const timeCell = document.createElement('td');
                 const titleNoCell = document.createElement('td');
                 const detailCell = document.createElement('td');
 
-                // Populate cells with quiz details
+
                 timeCell.textContent = quiz.time ? quiz.time : '';
                 titleNoCell.textContent = quiz.serialNo;
                 detailCell.textContent = quiz.detail;
@@ -510,32 +396,32 @@
             });
         }
 
-        // Default filter with current date on page load
+
         $(document).ready(function () {
             const currentDate = new Date();
             const formattedDate = currentDate.getFullYear() + '-' + ('0' + (currentDate.getMonth() + 1)).slice(-2) + '-' + ('0' + currentDate.getDate()).slice(-2);
-            $('#datepicker').datepicker('setDate', formattedDate); // Set current date in datepicker
-            filterQuizzes(currentDate); // Display quizzes for the current date by default
+            $('#datepicker').datepicker('setDate', formattedDate);
+            filterQuizzes(currentDate);
         });
 
-        // Filter quizzes based on selected date when the submit button is clicked
+
         document.getElementById('submitBtn').addEventListener('click', function () {
             const selectedDate = $('#datepicker').datepicker('getDate');
             if (selectedDate) {
                 filterQuizzes(selectedDate);
             } else {
-                // If no date selected, display quizzes for the current date
+
                 const currentDate = new Date();
                 filterQuizzes(currentDate);
-                $('#datepicker').datepicker('setDate', currentDate); // Set current date in datepicker
+                $('#datepicker').datepicker('setDate', currentDate);
             }
         });
 
-        // Function to filter quizzes based on selected date
+
         function filterQuizzes(selectedDate) {
-            // Convert selected date to start of the day (midnight)
+
             const startOfDay = new Date(selectedDate.getFullYear(), selectedDate.getMonth(), selectedDate.getDate());
-            const endOfDay = new Date(startOfDay.getTime() + 24 * 60 * 60 * 1000 - 1); // End of the day (just before the next day)
+            const endOfDay = new Date(startOfDay.getTime() + 24 * 60 * 60 * 1000 - 1);
 
             fetch('data/quizzes.json')
                 .then(response => response.json())
@@ -548,7 +434,7 @@
                         displayQuizzesInTable(filteredQuizzes);
                     } else {
                         displayQuizzesInTable([]);
-                        
+
                     }
                 })
                 .catch(error => console.error('Error loading quizzes:', error));
