@@ -2242,7 +2242,25 @@
     "date": "2024-04-01",
     "detail": "A garden in lanka"
   },
-
+  {
+    "name": "Fun Quiz",
+    "serialNo": "1",
+    "date": "2024-04-01",
+    "time": "11:00 to 12:00",
+    "detail": "Ravana deserved a proper funeral"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "1",
+    "date": "2024-04-01",
+    "detail": "The moral of the story is- one who desires more, looses all"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "1",
+    "date": "2024-04-01",
+    "detail": "A King"
+  },
 
   {
     "name": "Fun Quiz",
