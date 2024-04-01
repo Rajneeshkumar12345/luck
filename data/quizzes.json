@@ -2264,6 +2264,26 @@
 
   {
     "name": "Fun Quiz",
+    "serialNo": "6",
+    "date": "2024-04-01",
+    "time": "12:00 to 13:00",
+    "detail": "Kanyakumari city is the most southern tip of India"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "5",
+    "date": "2024-04-01",
+    "detail": "The rainy season"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "5",
+    "date": "2024-04-01",
+    "detail": "Business with huge losses"
+  },
+
+  {
+    "name": "Fun Quiz",
     "serialNo": 1,
     "date": "2024-03-16",
     "time": "09:00 to 10:00",
