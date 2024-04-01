@@ -2304,6 +2304,27 @@
 
   {
     "name": "Fun Quiz",
+    "serialNo": "2",
+    "date": "2024-04-01",
+    "time": "14:00 to 15:00",
+    "detail": "Ravana killed hundreds of monkeys"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "8",
+    "date": "2024-04-01",
+    "detail": "Welcome to Venice"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "4",
+    "date": "2024-04-01",
+    "detail": "Zürich is increasingly influenced by big-city"
+  },
+
+
+  {
+    "name": "Fun Quiz",
     "serialNo": 1,
     "date": "2024-03-16",
     "time": "09:00 to 10:00",
