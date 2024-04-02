@@ -31,6 +31,22 @@
 
         }
 
+        @media (max-width: 767px) {
+            .mainDivs {
+                width: 100%;
+                justify-content: center;
+                margin: 1rem auto;
+            }
+
+            .mainDiv {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                margin: 0 auto;
+
+            }
+        }
+
         .navElement ul {
             list-style-type: none;
             padding: 15px 0px 15px 0px;
@@ -122,14 +138,16 @@
             height: 20px;
             z-index: 1;
         }
-        .mainAbou{
+
+        .mainAbou {
             padding: 5rem;
         }
 
         @media (max-width: 767px) {
-            .mainAbou{
-            padding: 0rem;
-        }
+            .mainAbou {
+                padding: 0rem;
+            }
+
             .mainDiv {
                 width: 100%;
                 display: block;
@@ -204,7 +222,7 @@
     <div class="mainDiv">
         <div class="mains">
             <img src="/images/HomeBanner.png" alt="banner" height="200" width="100%">
-            <div class="navElement"> 
+            <div class="navElement">
                 <ul>
                     <li><a href="/index.html">HOME</a></li>
                     <li><a href="/register.html">REGISTER</a></li>
