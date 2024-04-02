@@ -16,12 +16,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
-    <title>Home</title>
+        <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5950234298589470"
+     crossorigin="anonymous"></script> -->
+    <title>Home-Page</title>
     <style>
         .Bodys {
             background-color: black;
-            margin: 0 auto;
         }
+
+        /* .mainDiv {
+            display: flex;
+            width: 74%;
+            justify-content: center;
+            margin: 0 auto;
+
+        } */
 
         .navElement ul {
             list-style-type: none;
@@ -52,9 +61,17 @@
             text-decoration: underline;
         }
 
+        /* .mainDivs {
+            width: 74%;
+            justify-content: center;
+            margin: 1rem auto;
+
+        } */
+
         .navElementBottoms ul {
             display: flex;
             background-color: #191919;
+
         }
 
         .navElementBottoms ul li {
@@ -77,6 +94,8 @@
             text-decoration: underline;
         }
 
+        /* Second Part CSS */
+
         .bottoms {
             background-color: #191919;
             padding: 15px 10px 15px 20px;
@@ -84,7 +103,7 @@
 
         .imageClass img {
             width: 490px;
-            height: 342px;
+            height: 400px;
         }
 
         .divOne {
@@ -181,130 +200,159 @@
             z-index: 1;
         }
 
-        .main-content {
-            display: flex;
-        }
+        @media (max-width: 767px) {
+            .mainDiv {
+                width: 100%;
+                display: block;
+            }
 
-        .divOne {
-            flex-basis: 30%;
-        }
+            .bottoms {
+                width: 100%;
+            }
 
-        .two {
-            flex-basis: 40%;
-        }
+            .imageClass img {
+                max-width: 100%;
+            }
 
-        .three {
-            flex-basis: 30%;
-            margin-left: 1rem;
+            .mains img {
+                max-width: 100%;
+            }
+
+            .navElement ul {
+                list-style-type: none;
+                padding: 20px 0px 15px 0px;
+                background-color: #bcd037;
+                display: flex;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .navElement ul li {
+                display: flex;
+                justify-content: center;
+                margin: 5px auto;
+            }
+
+            .mainDivs {
+                position: relative;
+                width: 100%;
+                background-color: #444145;
+            }
+
+            .mainDivs ul {
+                display: flex;
+                /* flex-wrap: nowrap; */
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            .mainDivs ul li {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+
+            .navElementBottoms ul li {
+                font-size: 12px;
+                padding: 0px;
+                float: left;
+                padding-right: 10px;
+                list-style: none;
+            }
         }
     </style>
 </head>
 
 <body class="Bodys">
-    <table cellpadding="0" cellspacing="0" width="100%">
-        <tbody>
-            <tr>
-                <td align="center">
-                    <table cellpadding="0" cellspacing="0" width="100%">
-                        <tbody>
-                            <tr>
-                                <td align="center">
-                                    <table cellpadding="0" cellspacing="0" width="1000px">
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <div class="wrapper">
-                                                        <div class="main-banner-wrapper">
-                                                            <img src="/images/HomeBanner.png" alt="banner"
-                                                                style="width:1000px;">
-                                                        </div>
-                                                        <div class="navElement">
-                                                            <ul>
-                                                                <li><a href="/index.html">HOME</a></li>
-                                                                <li><a href="/register.html">REGISTER</a></li>
-                                                                <li><a href="/about.html">ABOUT</a></li>
-                                                                <li><a href="/result.html">QUIZ RESULT</a></li>
-                                                                <li><a href="/contact-us.html" class="gifs">CONTACT</a>
-                                                                </li>
-                                                                <li><a href="/login.html">LOGIN</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div style="clear: both; height: 10px;"></div>
-                                                        <!-- Main Content -->
-                                                        <div class="main-content">
-                                                            <div class="divOne">
-                                                                <p>
-                                                                    It's an education game that creates fun. This fun
-                                                                    story game
-                                                                    lets you select the best story title from multiple
-                                                                    titles.
-                                                                </p>
-                                                                <p>
-                                                                    Players learn the value of not only reading a story
-                                                                    but also
-                                                                    reviewing it.
-                                                                </p>
-                                                                <p>
-                                                                    Invest your brain in this education game and win
-                                                                    exciting prices.
-                                                                    A best way to exercise your mind in a healthy way.
-                                                                </p>
-                                                                <div class="buttons">
-                                                                    <a href="#" class="readMore">Read More</a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="two" style="height: 400px">
-                                                                <img src="/images/quiz.jpg" alt="banner"
-                                                                    style="object-fit: cover;">
-                                                            </div>
-                                                            <div class="three">
-                                                                <div class="quizGame">
-                                                                    <span>Quiz Game</span>
-                                                                </div>
-                                                                <div class="funQuiz">
-                                                                    <span class="funQuizs">Fun Quiz</span>
-                                                                    <p class="p-0 m-0 text-white">From 18:00 hr To 19:00
-                                                                        hr</p>
-                                                                    <p class="p-0 m-0 text-white">
-                                                                        <span class="redText">Result</span> :
-                                                                        <span class="tit">Title 9</span> (The lion was
-                                                                        amused
-                                                                        by hearing mouse words)
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div style="clear: both; height: 10px;"></div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <!-- Footer -->
-                                                    <div class="navElementBottoms">
-                                                        <ul>
-                                                            <li><a href="/index.html">HOME</a></li>
-                                                            <li><a href="/register.html">REGISTER</a></li>
-                                                            <li><a href="/about.html">ABOUT</a></li>
-                                                            <li><a href="/result.html">QUIZ RESULT</a></li>
-                                                            <li><a href="/contact-us.html">CONTACT</a></li>
-                                                            <li><a href="/login.html">LOGIN</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div style="clear: both; height: 10px;"></div>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="mainDiv">
+        <div class="mains">
+            <img src="/images/HomeBanner.png" alt="banner" height="200" width="100%">
+            <div class="navElement">
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/register.html">REGISTER</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/result.html">QUIZ RESULT</a></li>
+                    <li><a href="/contact-us.html" class="gifs">CONTACT</a></li>
+                    <li><a href="/login.html">LOGIN</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="mainDiv">
+        <div class="bottoms">
+            <div class="row p-0 m-0 pb-5 border">
+                <div class="divOne col-md-3">
+                    <p>
+                        It's an education game that creates fun. This fun story game
+                        lets you select best story title from multiple titles.
+                    </p>
+                    <p>
+                        Players learn the value of not only reading a story but also
+                        reviewing it.
+                    </p>
+                    <p>
+                        Invest your brain in this education game and win exciting prices.
+                        A best way to exercise your mind in a healthy way.
+                    </p>
+                    <div class="buttons">
+                        <a href="#" class="readMore">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0 m-0 imageClass">
+                    <!-- You need to replace this image with the actual path to your image -->
+                    <img src="/images/quiz.jpg" alt="banner" style="object-fit: cover;">
+                </div>
+                <div class="col-md-3 p-2 m-0">
+                    <div class="quizGame">
+                        <span>Quiz Game</span>
+                    </div>
+                    <div class="funQuiz">
+                        <span class="funQuizs">Fun Quiz</span>
+                        <p class="p-0 m-0 text-white">From 18:00 hr To 19:00 hr</p>
+                        <p class="p-0 m-0 text-white">
+                            <span class="redText">Result</span> :
+                            <span class="tit">Title 9</span> (The lion was amused
+                            by hearing mouse words)
+                        </p>
+                    </div>
+                    <div class="funQuiz">
+                        <span class="funQuizs">Wonder Quiz</span>
+                        <p class="p-0 m-0 text-white">From 18:00 hr To 19:00 hr</p>
+                        <p class="p-0 m-0 text-white">
+                            <span class="redText">Result</span> :
+                            <span class="tit">Title 3</span> (Ruler on the throne
+                            of Lanka )
+                        </p>
+                    </div>
+                    <div class="funQuiz">
+                        <span class="funQuizs"> Lucky Quiz</span>
+                        <p class="p-0 m-0 text-white">From 18:00 hr To 19:00 hr</p>
+                        <p class="p-0 m-0 text-white">
+                            <span class="redText">Result</span> :
+                            <span class="tit">Title 1</span> (Ruaha National
+                            Park: Tanzania. )
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mainDivs" style="margin-top: 1rem;">
+        <div class="navElementBottoms mt-3">
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/register.html">REGISTER</a></li>
+                <li><a href="/about.html">ABOUT</a></li>
+                <li><a href="/result.html">QUIZ RESULT</a></li>
+                <li><a href="/contact-us.html">CONTACT</a></li>
+                <li><a href="/login.html">LOGIN</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 
 </html>
