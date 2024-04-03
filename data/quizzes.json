@@ -2715,5 +2715,24 @@
     "serialNo": "1",
     "date": "2024-04-03",
     "detail": "Draupadi prayed to Krishna"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "0",
+    "date": "2024-04-03",
+    "time": "16:00 to 17:00",
+    "detail": "Rent a rental in an apartment complex with a swimming pool"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "5",
+    "date": "2024-04-03",
+    "detail": "The wickedness has its own punishment"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "2",
+    "date": "2024-04-03",
+    "detail": "Ashii"
   }
 ]
