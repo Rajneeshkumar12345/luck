@@ -2644,7 +2644,7 @@
     "name": "Fun Quiz",
     "serialNo": "0",
     "date": "2024-04-03",
-    "time": "11:00 to 12:00",
+    "time": "12:00 to 13:00",
     "detail": "Ravana deserved a proper funeral"
   },
   {
@@ -2658,5 +2658,24 @@
     "serialNo": "5",
     "date": "2024-04-03",
     "detail": "A King"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "3",
+    "date": "2024-04-02",
+    "time": "13:00 to 14:00",
+    "detail": "Kanyakumari city is the most southern tip of India"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "7",
+    "date": "2024-04-02",
+    "detail": "The rainy season"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "1",
+    "date": "2024-04-02",
+    "detail": "Business with huge losses"
   }
 ]
