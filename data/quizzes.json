@@ -2639,5 +2639,24 @@
     "serialNo": "3",
     "date": "2024-04-03",
     "detail": "A King"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "0",
+    "date": "2024-04-03",
+    "time": "11:00 to 12:00",
+    "detail": "Ravana deserved a proper funeral"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "1",
+    "date": "2024-04-03",
+    "detail": "The moral of the story is- one who desires more, looses all"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "5",
+    "date": "2024-04-03",
+    "detail": "A King"
   }
 ]
