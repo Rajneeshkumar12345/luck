@@ -2013,7 +2013,6 @@
     "date": "2024-03-30",
     "detail": "Ruaha National Park is the second largest national park in Tanzania"
   },
-
   {
     "name": "Fun Quiz",
     "serialNo": "1",
@@ -2204,7 +2203,6 @@
     "date": "2024-03-31",
     "detail": "Ruaha National Park is the second largest national park in Tanzania"
   },
-
   {
     "name": "Fun Quiz",
     "serialNo": "9",
@@ -2262,7 +2260,6 @@
     "date": "2024-04-01",
     "detail": "A King"
   },
-
   {
     "name": "Fun Quiz",
     "serialNo": "6",
@@ -2282,7 +2279,6 @@
     "date": "2024-04-01",
     "detail": "Business with huge losses"
   },
-
   {
     "name": "Fun Quiz",
     "serialNo": "2",
@@ -2302,7 +2298,6 @@
     "date": "2024-04-01",
     "detail": "A pair of scissors and snipped off the remaining bit of the cocoon"
   },
-
   {
     "name": "Fun Quiz",
     "serialNo": "2",
@@ -2322,7 +2317,6 @@
     "date": "2024-04-01",
     "detail": "Zürich is increasingly influenced by big-city"
   },
-
   {
     "name": "Fun Quiz",
     "serialNo": "7",
@@ -2399,299 +2393,213 @@
     "date": "2024-04-01",
     "detail": "Botswana Emerges as an Up Market Safari Destination"
   },
-
-{
-  "name": "Fun Quiz",
-  "serialNo": "1",
-  "date": "2024-04-02",
-  "time": "09:00 to 10:00",
-  "detail": "Description of the Fun Quiz"
-},
-{
-  "name": "Wonder Quiz",
-  "serialNo": "8",
-  "date": "2024-04-02",
-  "detail": "Description of the Wonder Quiz"
-},
-{
-  "name": "Lucky Quiz",
-  "serialNo": "1",
-  "date": "2024-04-02",
-  "detail": "Ravana expelled his younger brother Vibhisana from Lanka"
-},
-{
-  "name": "Fun Quiz",
-  "serialNo": "9",
-  "date": "2024-04-02",
-  "time": "10:00 to 11:00",
-  "detail": "check out Jacksonville's public swimming pools"
-},
-{
-  "name": "Wonder Quiz",
-  "serialNo": "2",
-  "date": "2024-04-02",
-  "detail": "A tiny fish"
-},
-{
-  "name": "Lucky Quiz",
-  "serialNo": "3",
-  "date": "2024-04-02",
-  "detail": "A garden in lanka"
-},
-{
-  "name": "Fun Quiz",
-  "serialNo": "7",
-  "date": "2024-04-02",
-  "time": "11:00 to 12:00",
-  "detail": "Ravana deserved a proper funeral"
-},
-{
-  "name": "Wonder Quiz",
-  "serialNo": "7",
-  "date": "2024-04-02",
-  "detail": "The moral of the story is- one who desires more, looses all"
-},
-{
-  "name": "Lucky Quiz",
-  "serialNo": "3",
-  "date": "2024-04-02",
-  "detail": "A King"
-},
-
-{
-  "name": "Fun Quiz",
-  "serialNo": "0",
-  "date": "2024-04-02",
-  "time": "12:00 to 13:00",
-  "detail": "Kanyakumari city is the most southern tip of India"
-},
-{
-  "name": "Wonder Quiz",
-  "serialNo": "2",
-  "date": "2024-04-02",
-  "detail": "The rainy season"
-},
-{
-  "name": "Lucky Quiz",
-  "serialNo": "5",
-  "date": "2024-04-02",
-  "detail": "Business with huge losses"
-},
-
-{
-  "name": "Fun Quiz",
-  "serialNo": "4",
-  "date": "2024-04-02",
-  "time": "13:00 to 14:00",
-  "detail": "Static and touring caravan park holidays Weymouth"
-},
-{
-  "name": "Wonder Quiz",
-  "serialNo": "3",
-  "date": "2024-04-02",
-  "detail": "We took the funicular up to Capri town and then a bus to Anacapri"
-},
-{
-  "name": "Lucky Quiz",
-  "serialNo": "6",
-  "date": "2024-04-02",
-  "detail": "A pair of scissors and snipped off the remaining bit of the cocoon"
-},
-
-{
-  "name": "Fun Quiz",
-  "serialNo": "7",
-  "date": "2024-04-02",
-  "time": "14:00 to 15:00",
-  "detail": "Ravana killed hundreds of monkeys"
-},
-{
-  "name": "Wonder Quiz",
-  "serialNo": "5",
-  "date": "2024-04-02",
-  "detail": "Welcome to Venice"
-},
-{
-  "name": "Lucky Quiz",
-  "serialNo": "4",
-  "date": "2024-04-02",
-  "detail": "Zürich is increasingly influenced by big-city"
-},
-
-{
-  "name": "Fun Quiz",
-  "serialNo": "3",
-  "date": "2024-04-02",
-  "time": "15:00 to 16:00",
-  "detail": "Happy married life"
-},
-{
-  "name": "Wonder Quiz",
-  "serialNo": "0",
-  "date": "2024-04-02",
-  "detail": "The expectation of danger"
-},
-{
-  "name": "Lucky Quiz",
-  "serialNo": "1",
-  "date": "2024-04-02",
-  "detail": "Draupadi prayed to Krishna"
-},
-{
-  "name": "Fun Quiz",
-  "serialNo": "0",
-  "date": "2024-04-02",
-  "time": "16:00 to 17:00",
-  "detail": "Rent a rental in an apartment complex with a swimming pool"
-},
-{
-  "name": "Wonder Quiz",
-  "serialNo": "0",
-  "date": "2024-04-02",
-  "detail": "The wickedness has its own punishment"
-},
-{
-  "name": "Lucky Quiz",
-  "serialNo": "9",
-  "date": "2024-04-02",
-  "detail": "Ashii"
-},
-{
-  "name": "Fun Quiz",
-  "serialNo": "7",
-  "date": "2024-04-02",
-  "time": "17:00 to 18:00",
-  "detail": "Rent a rental in an apartment complex with a swimming pool"
-},
-{
-  "name": "Wonder Quiz",
-  "serialNo": "8",
-  "date": "2024-04-02",
-  "detail": "The wickedness has its own punishment"
-},
-{
-  "name": "Lucky Quiz",
-  "serialNo": "2",
-  "date": "2024-04-02",
-  "detail": "Ashii"
-},
-{
-  "name": "Fun Quiz",
-  "serialNo": "8",
-  "date": "2024-04-02",
-  "time": "18:00 to 19:00",
-  "detail": "A fox and a goat"
-},
-{
-  "name": "Wonder Quiz",
-  "serialNo": "6",
-  "date": "2024-04-02",
-  "detail": "Simple Ideas to Get Organized"
-},
-{
-  "name": "Lucky Quiz",
-  "serialNo": "1",
-  "date": "2024-04-02",
-  "detail": "Botswana Emerges as an Up Market Safari Destination"
-},
-
-
-
-
-
   {
     "name": "Fun Quiz",
-    "serialNo": 1,
-    "date": "2024-03-16",
+    "serialNo": "1",
+    "date": "2024-04-02",
     "time": "09:00 to 10:00",
     "detail": "Description of the Fun Quiz"
   },
   {
     "name": "Wonder Quiz",
-    "serialNo": 2,
-    "date": "2024-03-16",
+    "serialNo": "8",
+    "date": "2024-04-02",
     "detail": "Description of the Wonder Quiz"
   },
   {
     "name": "Lucky Quiz",
-    "serialNo": 3,
-    "date": "2024-03-16",
+    "serialNo": "1",
+    "date": "2024-04-02",
     "detail": "Ravana expelled his younger brother Vibhisana from Lanka"
   },
   {
     "name": "Fun Quiz",
-    "serialNo": 1,
-    "date": "2024-03-16",
-    "time": "09:00 to 10:00",
-    "detail": "Description of the Fun Quiz"
+    "serialNo": "9",
+    "date": "2024-04-02",
+    "time": "10:00 to 11:00",
+    "detail": "check out Jacksonville's public swimming pools"
   },
   {
     "name": "Wonder Quiz",
-    "serialNo": 2,
-    "date": "2024-03-16",
-    "detail": "Description of the Wonder Quiz"
+    "serialNo": "2",
+    "date": "2024-04-02",
+    "detail": "A tiny fish"
   },
   {
     "name": "Lucky Quiz",
-    "serialNo": 3,
-    "date": "2024-03-16",
-    "detail": "Ravana expelled his younger brother Vibhisana from Lanka"
+    "serialNo": "3",
+    "date": "2024-04-02",
+    "detail": "A garden in lanka"
   },
   {
     "name": "Fun Quiz",
-    "serialNo": 1,
-    "date": "2024-03-17",
-    "time": "09:00 to 10:00",
-    "detail": "Description of the Fun Quiz"
+    "serialNo": "7",
+    "date": "2024-04-02",
+    "time": "11:00 to 12:00",
+    "detail": "Ravana deserved a proper funeral"
   },
   {
     "name": "Wonder Quiz",
-    "serialNo": 2,
-    "date": "2024-03-17",
-    "detail": "Description of the Wonder Quiz"
+    "serialNo": "7",
+    "date": "2024-04-02",
+    "detail": "The moral of the story is- one who desires more, looses all"
   },
   {
     "name": "Lucky Quiz",
-    "serialNo": 3,
-    "date": "2024-03-17",
-    "detail": "Ravana expelled his younger brother Vibhisana from Lanka"
+    "serialNo": "3",
+    "date": "2024-04-02",
+    "detail": "A King"
   },
   {
     "name": "Fun Quiz",
-    "serialNo": 1,
-    "date": "2024-03-15",
-    "time": "09:00 to 10:00",
-    "detail": "Description of the Fun Quiz"
+    "serialNo": "0",
+    "date": "2024-04-02",
+    "time": "12:00 to 13:00",
+    "detail": "Kanyakumari city is the most southern tip of India"
   },
   {
     "name": "Wonder Quiz",
-    "serialNo": 2,
-    "date": "2024-03-15",
-    "detail": "Description of the Wonder Quiz"
+    "serialNo": "2",
+    "date": "2024-04-02",
+    "detail": "The rainy season"
   },
   {
     "name": "Lucky Quiz",
-    "serialNo": 3,
-    "date": "2024-03-15",
-    "detail": "Ravana expelled his younger brother Vibhisana from Lanka"
+    "serialNo": "5",
+    "date": "2024-04-02",
+    "detail": "Business with huge losses"
   },
   {
     "name": "Fun Quiz",
-    "serialNo": 1,
-    "date": "2024-03-15",
+    "serialNo": "4",
+    "date": "2024-04-02",
+    "time": "13:00 to 14:00",
+    "detail": "Static and touring caravan park holidays Weymouth"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "3",
+    "date": "2024-04-02",
+    "detail": "We took the funicular up to Capri town and then a bus to Anacapri"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "6",
+    "date": "2024-04-02",
+    "detail": "A pair of scissors and snipped off the remaining bit of the cocoon"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "7",
+    "date": "2024-04-02",
+    "time": "14:00 to 15:00",
+    "detail": "Ravana killed hundreds of monkeys"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "5",
+    "date": "2024-04-02",
+    "detail": "Welcome to Venice"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "4",
+    "date": "2024-04-02",
+    "detail": "Zürich is increasingly influenced by big-city"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "3",
+    "date": "2024-04-02",
+    "time": "15:00 to 16:00",
+    "detail": "Happy married life"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "0",
+    "date": "2024-04-02",
+    "detail": "The expectation of danger"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "1",
+    "date": "2024-04-02",
+    "detail": "Draupadi prayed to Krishna"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "0",
+    "date": "2024-04-02",
+    "time": "16:00 to 17:00",
+    "detail": "Rent a rental in an apartment complex with a swimming pool"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "0",
+    "date": "2024-04-02",
+    "detail": "The wickedness has its own punishment"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "9",
+    "date": "2024-04-02",
+    "detail": "Ashii"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "7",
+    "date": "2024-04-02",
+    "time": "17:00 to 18:00",
+    "detail": "Rent a rental in an apartment complex with a swimming pool"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "8",
+    "date": "2024-04-02",
+    "detail": "The wickedness has its own punishment"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "2",
+    "date": "2024-04-02",
+    "detail": "Ashii"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "8",
+    "date": "2024-04-02",
+    "time": "18:00 to 19:00",
+    "detail": "A fox and a goat"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "6",
+    "date": "2024-04-02",
+    "detail": "Simple Ideas to Get Organized"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "1",
+    "date": "2024-04-02",
+    "detail": "Botswana Emerges as an Up Market Safari Destination"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "9",
+    "date": "2024-04-03",
     "time": "09:00 to 10:00",
     "detail": "Description of the Fun Quiz"
   },
   {
     "name": "Wonder Quiz",
-    "serialNo": 2,
-    "date": "2024-03-15",
+    "serialNo": "2",
+    "date": "2024-04-03",
     "detail": "Description of the Wonder Quiz"
   },
   {
     "name": "Lucky Quiz",
-    "serialNo": 3,
-    "date": "2024-03-15",
+    "serialNo": "5",
+    "date": "2024-04-03",
     "detail": "Ravana expelled his younger brother Vibhisana from Lanka"
   }
 ]
