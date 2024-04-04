@@ -2886,6 +2886,25 @@
     "serialNo": "5",
     "date": "2024-04-04",
     "detail": "Zürich is increasingly influenced by big-city"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "0",
+    "date": "2024-04-04",
+    "time": "15:00 to 16:00",
+    "detail": "Happy married life"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "5",
+    "date": "2024-04-04",
+    "detail": "The expectation of danger"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "3",
+    "date": "2024-04-04",
+    "detail": "Draupadi prayed to Krishna"
   }
 
 ]
