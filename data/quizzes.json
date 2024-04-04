@@ -2908,41 +2908,23 @@
   },
   {
     "name": "Fun Quiz",
-    "serialNo": "0",
+    "serialNo": "2",
     "date": "2024-04-04",
     "time": "16:00 to 17:00",
     "detail": "Rent a rental in an apartment complex with a swimming pool"
   },
   {
     "name": "Wonder Quiz",
-    "serialNo": "5",
-    "date": "2024-04-04",
-    "detail": "The wickedness has its own punishment"
-  },
-  {
-    "name": "Lucky Quiz",
-    "serialNo": "3",
-    "date": "2024-04-04",
-    "detail": "Ashii"
-  },
-  {
-    "name": "Fun Quiz",
-    "serialNo": "2",
-    "date": "2024-04-04",
-    "time": "17:00 to 18:00",
-    "detail": "Rent a rental in an apartment complex with a swimming pool"
-  },
-  {
-    "name": "Wonder Quiz",
     "serialNo": "8",
     "date": "2024-04-04",
     "detail": "The wickedness has its own punishment"
   },
   {
     "name": "Lucky Quiz",
-    "serialNo": "8",
-    "date": "2024-04-07",
+    "serialNo": "7",
+    "date": "2024-04-04",
     "detail": "Ashii"
   }
+
 
 ]
