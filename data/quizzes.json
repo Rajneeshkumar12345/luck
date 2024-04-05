@@ -3095,5 +3095,43 @@
     "serialNo": "4",
     "date": "2024-04-05",
     "detail": "Draupadi prayed to Krishna"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "9",
+    "date": "2024-04-05",
+    "time": "16:00 to 17:00",
+    "detail": "Rent a rental in an apartment complex with a swimming pool"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "6",
+    "date": "2024-04-05",
+    "detail": "The wickedness has its own punishment"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "0",
+    "date": "2024-04-05",
+    "detail": "Ashii"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "3",
+    "date": "2024-04-05",
+    "time": "17:00 to 18:00",
+    "detail": "Rent a rental in an apartment complex with a swimming pool"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "8",
+    "date": "2024-04-05",
+    "detail": "The wickedness has its own punishment"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "9",
+    "date": "2024-04-05",
+    "detail": "Ashii"
   }
 ]
