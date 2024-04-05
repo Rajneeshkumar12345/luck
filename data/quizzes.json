@@ -3019,5 +3019,43 @@
     "serialNo": "6",
     "date": "2024-04-05",
     "detail": "A King"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "7",
+    "date": "2024-04-05",
+    "time": "12:00 to 13:00",
+    "detail": "Ravana deserved a proper funeral"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "1",
+    "date": "2024-04-05",
+    "detail": "The moral of the story is- one who desires more, looses all"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "1",
+    "date": "2024-04-05",
+    "detail": "A King"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "0",
+    "date": "2024-04-05",
+    "time": "13:00 to 14:00",
+    "detail": "Kanyakumari city is the most southern tip of India"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "5",
+    "date": "2024-04-05",
+    "detail": "The rainy season"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "8",
+    "date": "2024-04-05",
+    "detail": "Business with huge losses"
   }
 ]
