@@ -2981,5 +2981,24 @@
     "serialNo": "4",
     "date": "2024-04-05",
     "detail": "Ravana expelled his younger brother Vibhisana from Lanka"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "1",
+    "date": "2024-04-05",
+    "time": "10:00 to 11:00",
+    "detail": "check out Jacksonville's public swimming pools"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "0",
+    "date": "2024-04-05",
+    "detail": "A tiny fish"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "4",
+    "date": "2024-04-05",
+    "detail": "A garden in lanka"
   }
 ]
