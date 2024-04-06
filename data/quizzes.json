@@ -3247,5 +3247,43 @@
     "serialNo": "7",
     "date": "2024-04-06",
     "detail": "Business with huge losses"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "3",
+    "date": "2024-04-06",
+    "time": "14:00 to 15:00",
+    "detail": "Ravana killed hundreds of monkeys"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "8",
+    "date": "2024-04-06",
+    "detail": "Welcome to Venice"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "8",
+    "date": "2024-04-06",
+    "detail": "Zürich is increasingly influenced by big-city"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "2",
+    "date": "2024-04-06",
+    "time": "15:00 to 16:00",
+    "detail": "Happy married life"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "3",
+    "date": "2024-04-06",
+    "detail": "The expectation of danger"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "2",
+    "date": "2024-04-06",
+    "detail": "Draupadi prayed to Krishna"
   }
 ]
