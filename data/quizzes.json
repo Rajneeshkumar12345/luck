@@ -3152,5 +3152,24 @@
     "serialNo": "9",
     "date": "2024-04-05",
     "detail": "Botswana Emerges as an Up Market Safari Destination"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "4",
+    "date": "2024-04-06",
+    "time": "09:00 to 10:00",
+    "detail": "Description of the Fun Quiz"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "4",
+    "date": "2024-04-06",
+    "detail": "Description of the Wonder Quiz"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "4",
+    "date": "2024-04-06",
+    "detail": "Ravana expelled his younger brother Vibhisana from Lanka"
   }
 ]
