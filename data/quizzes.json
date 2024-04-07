@@ -3513,5 +3513,24 @@
     "serialNo": "7",
     "date": "2024-04-07",
     "detail": "Zürich is increasingly influenced by big-city"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "8",
+    "date": "2024-04-07",
+    "time": "17:00 to 18:00",
+    "detail": "Kanyakumari city is the most southern tip of India"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "9",
+    "date": "2024-04-07",
+    "detail": "The rainy season"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "3",
+    "date": "2024-04-07",
+    "detail": "Business with huge losses"
   }
 ]
