@@ -3475,5 +3475,24 @@
     "serialNo": "9",
     "date": "2024-04-07",
     "detail": "Draupadi prayed to Krishna"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "4",
+    "date": "2024-04-07",
+    "time": "16:00 to 17:00",
+    "detail": "Kanyakumari city is the most southern tip of India"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "4",
+    "date": "2024-04-07",
+    "detail": "The rainy season"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "4",
+    "date": "2024-04-07",
+    "detail": "Business with huge losses"
   }
 ]
