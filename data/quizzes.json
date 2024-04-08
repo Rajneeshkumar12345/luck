@@ -3684,5 +3684,43 @@
     "serialNo": "5",
     "date": "2024-04-08",
     "detail": "Draupadi prayed to Krishna"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "0",
+    "date": "2024-04-08",
+    "time": "16:00 to 17:00",
+    "detail": "Kanyakumari city is the most southern tip of India"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "0",
+    "date": "2024-04-08",
+    "detail": "The rainy season"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "6",
+    "date": "2024-04-08",
+    "detail": "Business with huge losses"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "5",
+    "date": "2024-04-08",
+    "time": "17:00 to 18:00",
+    "detail": "Ravana killed hundreds of monkeys"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "2",
+    "date": "2024-04-08",
+    "detail": "Welcome to Venice"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "9",
+    "date": "2024-04-08",
+    "detail": "Zürich is increasingly influenced by big-city"
   }
 ]
