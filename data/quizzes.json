@@ -3760,5 +3760,24 @@
     "serialNo": "8",
     "date": "2024-04-09",
     "detail": "Ashii"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "2",
+    "date": "2024-04-09",
+    "time": "10:00 to 11:00",
+    "detail": "Ravana killed hundreds of monkeys"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "4",
+    "date": "2024-04-09",
+    "detail": "Welcome to Venice"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "0",
+    "date": "2024-04-09",
+    "detail": "Zürich is increasingly influenced by big-city"
   }
 ]
