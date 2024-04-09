@@ -3741,5 +3741,24 @@
     "serialNo": "4",
     "date": "2024-04-08",
     "detail": "Zürich is increasingly influenced by big-city"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "5",
+    "date": "2024-04-09",
+    "time": "09:00 to 10:00",
+    "detail": "Rent a rental in an apartment complex with a swimming pool"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "8",
+    "date": "2024-04-09",
+    "detail": "The wickedness has its own punishment"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "8",
+    "date": "2024-04-09",
+    "detail": "Ashii"
   }
 ]
