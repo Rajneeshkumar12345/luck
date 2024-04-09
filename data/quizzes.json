@@ -3744,39 +3744,210 @@
   },
   {
     "name": "Fun Quiz",
-    "serialNo": "5",
+    "serialNo": "1",
     "date": "2024-04-09",
     "time": "09:00 to 10:00",
-    "detail": "Rent a rental in an apartment complex with a swimming pool"
+    "detail": "Description of the Fun Quiz"
   },
   {
     "name": "Wonder Quiz",
-    "serialNo": "8",
+    "serialNo": "1",
     "date": "2024-04-09",
-    "detail": "The wickedness has its own punishment"
+    "detail": "Description of the Wonder Quiz"
   },
   {
     "name": "Lucky Quiz",
-    "serialNo": "8",
+    "serialNo": "0",
     "date": "2024-04-09",
-    "detail": "Ashii"
+    "detail": "Ravana expelled his younger brother Vibhisana from Lanka"
   },
   {
     "name": "Fun Quiz",
     "serialNo": "2",
     "date": "2024-04-09",
     "time": "10:00 to 11:00",
+    "detail": "check out Jacksonville's public swimming pools"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "9",
+    "date": "2024-04-09",
+    "detail": "A tiny fish"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "0",
+    "date": "2024-04-09",
+    "detail": "A garden in lanka"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "8",
+    "date": "2024-04-09",
+    "time": "11:00 to 12:00",
+    "detail": "Ravana deserved a proper funeral"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "6",
+    "date": "2024-04-09",
+    "detail": "The moral of the story is- one who desires more, looses all"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "1",
+    "date": "2024-04-09",
+    "detail": "A King"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "2",
+    "date": "2024-04-09",
+    "time": "12:00 to 13:00",
+    "detail": "Ravana deserved a proper funeral"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "2",
+    "date": "2024-04-09",
+    "detail": "The moral of the story is- one who desires more, looses all"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "9",
+    "date": "2024-04-09",
+    "detail": "A King"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "1",
+    "date": "2024-04-09",
+    "time": "13:00 to 14:00",
+    "detail": "Kanyakumari city is the most southern tip of India"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "5",
+    "date": "2024-04-09",
+    "detail": "The rainy season"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "0",
+    "date": "2024-04-09",
+    "detail": "Business with huge losses"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "8",
+    "date": "2024-04-09",
+    "time": "14:00 to 15:00",
     "detail": "Ravana killed hundreds of monkeys"
   },
   {
     "name": "Wonder Quiz",
-    "serialNo": "4",
+    "serialNo": "3",
     "date": "2024-04-09",
     "detail": "Welcome to Venice"
   },
   {
     "name": "Lucky Quiz",
-    "serialNo": "0",
+    "serialNo": "2",
+    "date": "2024-04-09",
+    "detail": "Zürich is increasingly influenced by big-city"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "5",
+    "date": "2024-04-09",
+    "time": "15:00 to 16:00",
+    "detail": "Happy married life"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "4",
+    "date": "2024-04-09",
+    "detail": "The expectation of danger"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "9",
+    "date": "2024-04-09",
+    "detail": "Draupadi prayed to Krishna"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "4",
+    "date": "2024-04-09",
+    "time": "16:00 to 17:00",
+    "detail": "Kanyakumari city is the most southern tip of India"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "4",
+    "date": "2024-04-09",
+    "detail": "The rainy season"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "3",
+    "date": "2024-04-09",
+    "detail": "Business with huge losses"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "7",
+    "date": "2024-04-09",
+    "time": "17:00 to 18:00",
+    "detail": "Ravana killed hundreds of monkeys"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "7",
+    "date": "2024-04-09",
+    "detail": "Welcome to Venice"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "7",
+    "date": "2024-04-09",
+    "detail": "Zürich is increasingly influenced by big-city"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "8",
+    "date": "2024-04-09",
+    "time": "17:00 to 18:00",
+    "detail": "Kanyakumari city is the most southern tip of India"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "9",
+    "date": "2024-04-09",
+    "detail": "The rainy season"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "3",
+    "date": "2024-04-09",
+    "detail": "Business with huge losses"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "6",
+    "date": "2024-04-09",
+    "time": "18:00 to 19:00",
+    "detail": "Ravana killed hundreds of monkeys"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "7",
+    "date": "2024-04-09",
+    "detail": "Welcome to Venice"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "8",
     "date": "2024-04-09",
     "detail": "Zürich is increasingly influenced by big-city"
   }
