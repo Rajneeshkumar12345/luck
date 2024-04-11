@@ -4178,5 +4178,24 @@
     "serialNo": "9",
     "date": "2024-04-11",
     "detail": "Ashii"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "1",
+    "date": "2024-04-11",
+    "time": "11:00 to 12:00",
+    "detail": "Ravana deserved a proper funeral"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "5",
+    "date": "2024-04-11",
+    "detail": "The moral of the story is- one who desires more, looses all"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "5",
+    "date": "2024-04-11",
+    "detail": "A King"
   }
 ]
