@@ -4463,5 +4463,24 @@
     "serialNo": "0",
     "date": "2024-04-12",
     "detail": "Draupadi prayed to Krishna"
+  },
+  {
+    "name": "Fun Quiz",
+    "serialNo": "4",
+    "date": "2024-04-12",
+    "time": "16:00 to 17:00",
+    "detail": "Happy married life"
+  },
+  {
+    "name": "Wonder Quiz",
+    "serialNo": "1",
+    "date": "2024-04-12",
+    "detail": "The expectation of danger"
+  },
+  {
+    "name": "Lucky Quiz",
+    "serialNo": "1",
+    "date": "2024-04-12",
+    "detail": "Draupadi prayed to Krishna"
   }
 ]
